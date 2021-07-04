@@ -144,10 +144,23 @@ function istek() {
     document.getElementById('ayliq').innerHTML = '<b>' + '$16'
     document.getElementById("telephone").value = '1'
   }
+
+  else if ( x > 36) {
+    document.getElementById("bilmirem").innerHTML ='36' + '/ month';
+    document.getElementById('ayliq').innerHTML = '<b>' + '$360'
+    document.getElementById("telephone").value = '36'
+    document.getElementById("1").value="OFF";
+    document.getElementById('xeta').innerHTML = 'Max month 36'
+    document.getElementById('xeta').style.color = 'red'
+    document.getElementById('telephone').style.border = 'red 1px solid' 
+  }
   else {
     document.getElementById("1").value="ON";
     document.querySelector('.switch').classList.remove('dum')
+    document.getElementById('xeta').innerHTML = ''
+    document.getElementById('telephone').style.border = '' 
   }
+
 
  
 }
