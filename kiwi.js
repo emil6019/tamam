@@ -150,7 +150,7 @@ function istek() {
     document.getElementById('ayliq').innerHTML = '<b>' + '$360'
     document.getElementById("telephone").value = '36'
     document.getElementById("1").value="OFF";
-    document.getElementById('xeta').innerHTML = 'Max month 36'
+    document.getElementById('xeta').innerHTML = 'WTF dude you dont have so much money :)'
     document.getElementById('xeta').style.color = 'red'
     document.getElementById('telephone').style.border = 'red 1px solid' 
   }
