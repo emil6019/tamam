@@ -238,7 +238,9 @@ padding-top: 2px;
   .telefon {
     display: none;
   }
-
+#xeta {
+display: none;
+}
   @media only screen and (max-width: 600px) {
     .container {
       width: 360px;
@@ -393,4 +395,5 @@ padding-top: 2px;
 
   #xeta {
     font-size: smaller;
+    display: flex;
   }
